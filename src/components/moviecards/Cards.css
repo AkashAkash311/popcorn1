@@ -1,0 +1,6 @@
+.Active{
+    color: white;
+    /* background: bg-gradient-to-r from-yellow-500 via-red-500 to-red-800;     */
+    background-image: linear-gradient(to right, #FFD700, #FF0000, #8B0000);
+
+}
