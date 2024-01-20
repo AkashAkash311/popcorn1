@@ -79,8 +79,8 @@ const Cards = ({category}) => {
         <Card key = {movie.id} movie = {movie}/>
       ))}
     </div>
-      {/* <button className='text-[24px] absolute text-red-800 left-[130px] z-1 bottom-60 'onClick={scrollLeft}><FaCircleChevronLeft /></button>
-      <button className=' text-[24px] absolute right-[125px] text-red-800 z-1 bottom-60' onClick={scrollRight}> <FaCircleChevronRight /></button> */}
+      <button className='text-[24px] absolute text-red-800 left-[130px] z-1 bottom-60 'onClick={scrollLeft}><FaCircleChevronLeft /></button>
+      <button className=' text-[24px] absolute right-[125px] text-red-800 z-1 bottom-60' onClick={scrollRight}> <FaCircleChevronRight /></button>
 
     </div>
   )
