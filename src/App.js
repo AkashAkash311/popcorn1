@@ -6,7 +6,7 @@ import Footer from './components/Footer'
 import Header from './components/introSection/Header'
 import Movie from './Pages/Movie'
 import Shows from './Pages/Shows'
-import { Analytics } from '@vercel/analytics/react';
+// import { Analytics } from '@vercel/analytics/react';
 
 
 
@@ -19,7 +19,7 @@ const App = () => {
       <Route path="/Search/:moviename" element={<Search/>}/>
       <Route path='/movie/:movie_id' element={<Movie/>}/>
       <Route path='/shows/' element={<Shows/>}/>
-      <Analytics />
+      
     </Routes>
     <Footer/>
     </div>

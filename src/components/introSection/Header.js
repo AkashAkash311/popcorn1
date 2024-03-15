@@ -10,7 +10,7 @@ const Header = () => {
 
   function clickhandler () {
     const movieName = document.querySelector('.Searchbar').value;
-    console.log(movieName);
+    // console.log(movieName);
     navigate(`/Search/${movieName}`,{
       state:{
         movieName
