@@ -38,8 +38,8 @@ const Header = () => {
         <span className='cursor-pointer text-[20px]'>TVshows</span>
         <div className='flex gap-x-1'>
 
-        <input type="search" placeholder='Search' className='Searchbar h-[30px] pl-4 rounded-sm focus:transform scale-120 text-black'  />
-        <button className='cursor-pointer text-[24px] hover:text-red-600' onClick ={clickhandler}><HiOutlineSearch /></button>
+        {/* <input type="search" placeholder='Search' className='Searchbar h-[30px] pl-4 rounded-sm focus:transform scale-120 text-black'  />
+        <button className='cursor-pointer text-[24px] hover:text-red-600' onClick ={clickhandler}><HiOutlineSearch /></button> */}
 
         </div>
       </div>
