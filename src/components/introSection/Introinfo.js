@@ -22,6 +22,7 @@ const Introinfo = () => {
   const handleEnterKey = (e) => {
     if (e.key === 'Enter') {
       // Perform the action you want when Enter is pressed
+      HandleClick();
       console.log('Enter key pressed. Performing action...');
     }
   };
@@ -32,7 +33,7 @@ const Introinfo = () => {
         <span className='text-[24px] font-semibold mt-0'>Uncover the magic of film: Explore, Watch and Delight in Movies</span>
 
         <div className='flex items-center w-full rounded-3xl mt-3'>
-            <input className=' searchbar w-[90%] text-black py-[20px] h-[60px] text-[20px] rounded-l-3xl focus:outline-none pl-8'  type='text' placeholder='Search for a movie or tv show...' onChange={handleInputChange} onKeyPress={handleEnterKey}></input>
+            <input className=' searchbar w-[90%] text-black py-[20px] h-[60px] text-[20px] rounded-l-3xl focus:outline-none pl-8'  type='text' placeholder='Search for a movie or tv show...' onChange={handleInputChange} onKeyDown={handleEnterKey}></input>
             <button className='w-[150px] h-[60px] text-[20px] bg-gradient-to-r from-yellow-500 via-red-500 to-red-800 rounded-r-3xl' onClick={HandleClick}>Search</button>
         </div>
     </div>
